@@ -1,21 +1,22 @@
-# Soroban Project
+# Customizable Gift Boxes
 
-## Project Structure
+## Project Description
+A smart contract solution that allows users to create and customize digital gift boxes on the blockchain. Each gift box contains a message or item description and can be updated before it's finalized for delivery.
 
-This repository uses the recommended structure for a Soroban project:
-```text
-.
-├── contracts
-│   └── hello_world
-│       ├── src
-│       │   ├── lib.rs
-│       │   └── test.rs
-│       └── Cargo.toml
-├── Cargo.toml
-└── README.md
-```
+## Project Vision
+To make gifting more interactive and decentralized by enabling users to send personalized digital gift experiences using blockchain technology.
 
-- New Soroban contracts can be put in `contracts`, each in their own directory. There is already a `hello_world` contract in there to get you started.
-- If you initialized this project with any other example contracts via `--with-example`, those contracts will be in the `contracts` directory as well.
-- Contracts should have their own `Cargo.toml` files that rely on the top-level `Cargo.toml` workspace for their dependencies.
-- Frontend libraries can be added to the top-level directory as well. If you initialized this project with a frontend template via `--frontend-template` you will have those files already included.
+## Key Features
+- **Create Gift Box**: Users can create a new gift box with default content.
+- **Customize Gift Box**: Box owners can edit and personalize the contents before it's marked as finalized.
+- **View Gift Box**: Anyone can view the contents and customization status of a gift box by its ID.
+
+## Future Scope
+- Add recipient functionality with secure claim mechanism.
+- Allow multimedia content (like images or voice notes) via IPFS.
+- Implement token-based gifting and NFT-wrapped gifts.
+- Include expiration logic and access control for opening boxes.
+
+## contractID-
+CCROAAPVMPLEAIAZ5HN77ZQZ6GNFGLT3IQDTGG5VXPA6YCR2NAZ5LWVZ
+![alt text](image.png)
